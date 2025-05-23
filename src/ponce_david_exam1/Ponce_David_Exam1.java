@@ -151,7 +151,7 @@ public class Ponce_David_Exam1 {
                     int numeroDeIntentos = scanner.nextInt();
 
                     if (numeroDeIntentos == numeroSecreto) {
-                        System.out.println("Lograste adivinar el numero aleatorio" + contador + " en intentos.");
+                        System.out.println("Lograste adivinar el numero aleatorio con " + contador + " intentos.");
                         esElNumero = true;
                         break;
                     } else {
